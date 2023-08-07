@@ -1,17 +1,37 @@
 // create web server
-var express = require('express');
-var app = express();
-// use body-parser middleware
-var bodyParser = require('body-parser');
-app.use(bodyParser.urlencoded({extended: false}));
-// set view engine
-app.set('view engine', 'ejs');
-app.set('views', './views');
-// set static folder
-app.use(express.static('public'));
-// connect to mongodb
-var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/express-demo');
-// define model
-var Comment = mongoose.model('Comment', {
-  content: String});
+// npm install express
+// npm install body-parser
+// npm install mongoose
+// npm install cors
+// npm install nodemon
+// npm install bcrypt
+// npm install jsonwebtoken
+// npm install cookie-parser
+// npm install dotenv
+// npm install uuid
+// npm install express-validator
+// npm install express-jwt
+// npm install express-jwt-authz
+// npm install jwks-rsa
+// npm install morgan
+// npm install multer
+// npm install helmet
+// npm install compression
+// npm install csurf
+// npm install express-session
+// npm install connect-mongodb-session
+// npm install connect-flash
+// npm install express-handlebars
+// npm install express-validator
+// npm install express-validator-handlebars
+// npm install passport
+// npm install passport-local
+// npm install passport-local-mongoose
+// npm install passport-google-oauth20
+// npm install passport-facebook
+// npm install passport-twitter
+// npm install passport-github
+// npm install express-rate-limit
+// npm install express-mongo-sanitize
+// npm install sanitize-html
+// npm in
